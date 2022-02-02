@@ -114,14 +114,6 @@ function anim()
 			
 				/// @DnDAction : YoYo Games.Common.Execute_Script
 				/// @DnDVersion : 1.1
-				/// @DnDHash : 42B9A428
-				/// @DnDParent : 0450B10D
-				/// @DnDArgument : "script" "check_sprite_index"
-				/// @DnDSaveInfo : "script" "check_sprite_index"
-				script_execute(check_sprite_index);
-			
-				/// @DnDAction : YoYo Games.Common.Execute_Script
-				/// @DnDVersion : 1.1
 				/// @DnDHash : 5158CDBA
 				/// @DnDParent : 0450B10D
 				/// @DnDArgument : "script" "check_facing"

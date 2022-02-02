@@ -53,4 +53,24 @@ function calc_movement()
 		/// @DnDArgument : "var" "hsp"
 		hsp = 0;
 	}
+
+	/// @DnDAction : YoYo Games.Common.If_Expression
+	/// @DnDVersion : 1
+	/// @DnDHash : 0A304673
+	/// @DnDParent : 5A79B919
+	/// @DnDArgument : "expr" "hsp != 0 && vsp != 0"
+	if(hsp != 0 && vsp != 0)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 78BB64FC
+		/// @DnDInput : 2
+		/// @DnDParent : 0A304673
+		/// @DnDArgument : "expr" "hsp * 0.707107"
+		/// @DnDArgument : "expr_1" "vsp * 0.707107"
+		/// @DnDArgument : "var" "hsp"
+		/// @DnDArgument : "var_1" "vsp"
+		hsp = hsp * 0.707107;
+		vsp = vsp * 0.707107;
+	}
 }

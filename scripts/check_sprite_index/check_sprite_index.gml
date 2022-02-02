@@ -46,16 +46,17 @@ function check_sprite_index()
 			image_index = 3;
 		}
 	
-		/// @DnDAction : YoYo Games.Common.Else
+		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 78820A44
+		/// @DnDHash : 34B0B1D3
 		/// @DnDParent : 5767C524
-		else
+		/// @DnDArgument : "var" "vsp"
+		if(vsp == 0)
 		{
 			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 			/// @DnDVersion : 1
 			/// @DnDHash : 41A7E502
-			/// @DnDParent : 78820A44
+			/// @DnDParent : 34B0B1D3
 			/// @DnDArgument : "instvar" "11"
 			image_index = 0;
 		}

@@ -88,3 +88,29 @@ repeat(3)
 /// @DnDArgument : "objectid" "o_dragontail"
 /// @DnDSaveInfo : "objectid" "o_dragontail"
 instance_create_layer(x + 0, y + 0, "Instances", o_dragontail);
+
+/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
+/// @DnDVersion : 1
+/// @DnDHash : 0AA9AB15
+/// @DnDArgument : "lives" "3"
+
+__dnd_lives = real(3);
+
+/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+/// @DnDVersion : 1
+/// @DnDHash : 75E45668
+
+__dnd_health = real(0);
+
+/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+/// @DnDVersion : 1
+/// @DnDHash : 5A7F36F4
+
+__dnd_score = real(0);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 45C775A9
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "level"
+level = 1;

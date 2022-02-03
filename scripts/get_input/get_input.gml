@@ -102,32 +102,12 @@ function get_input()
 			/// @DnDArgument : "var" "attack"
 			attack = true;
 		
-			/// @DnDAction : YoYo Games.Instances.Create_Instance
+			/// @DnDAction : YoYo Games.Common.Function_Call
 			/// @DnDVersion : 1
-			/// @DnDHash : 56AC5BC2
+			/// @DnDHash : 48015686
 			/// @DnDParent : 0971C71E
-			/// @DnDArgument : "xpos_relative" "1"
-			/// @DnDArgument : "ypos_relative" "1"
-			/// @DnDArgument : "var" "new_fireball"
-			/// @DnDArgument : "objectid" "o_fireball"
-			/// @DnDSaveInfo : "objectid" "o_fireball"
-			new_fireball = instance_create_layer(x + 0, y + 0, "Instances", o_fireball);
-		
-			/// @DnDAction : YoYo Games.Common.Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 7440E2E4
-			/// @DnDInput : 2
-			/// @DnDApplyTo : new_fireball
-			/// @DnDParent : 0971C71E
-			/// @DnDArgument : "expr" "other.speed + 1"
-			/// @DnDArgument : "expr_1" "point_direction(o_dragonhead.xprevious, o_dragonhead.yprevious, o_dragonhead.x, o_dragonhead.y)"
-			/// @DnDArgument : "var" "speed"
-			/// @DnDArgument : "var_1" "direction"
-			with(new_fireball) {
-			speed = other.speed + 1;
-			direction = point_direction(o_dragonhead.xprevious, o_dragonhead.yprevious, o_dragonhead.x, o_dragonhead.y);
-			
-			}
+			/// @DnDArgument : "function" "create_fireball"
+			create_fireball();
 		
 			/// @DnDAction : YoYo Games.Instances.Set_Alarm
 			/// @DnDVersion : 1

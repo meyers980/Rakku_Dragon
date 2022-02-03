@@ -29,12 +29,16 @@ function create_body()
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 3E5132D0
+	/// @DnDInput : 2
 	/// @DnDApplyTo : new_body
 	/// @DnDParent : 65AC22F0
-	/// @DnDArgument : "expr" "o_dragonhead.body_length"
+	/// @DnDArgument : "expr" "other.body_length"
+	/// @DnDArgument : "expr_1" "other.id"
 	/// @DnDArgument : "var" "body_length"
+	/// @DnDArgument : "var_1" "bodyowner"
 	with(new_body) {
-	body_length = o_dragonhead.body_length;
+	body_length = other.body_length;
+	bodyowner = other.id;
 	
 	}
 }

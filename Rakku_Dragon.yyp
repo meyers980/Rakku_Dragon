@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"create_projectiles","path":"scripts/create_projectiles/create_projectiles.yy",},"order":9,},
     {"id":{"name":"create_positions","path":"scripts/create_positions/create_positions.yy",},"order":4,},
     {"id":{"name":"calc_movement","path":"scripts/calc_movement/calc_movement.yy",},"order":6,},
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":6,},
@@ -20,6 +21,7 @@
     {"id":{"name":"s_fireball","path":"sprites/s_fireball/s_fireball.yy",},"order":7,},
     {"id":{"name":"o_dragontail","path":"objects/o_dragontail/o_dragontail.yy",},"order":2,},
     {"id":{"name":"s_dragonheadattack","path":"sprites/s_dragonheadattack/s_dragonheadattack.yy",},"order":6,},
+    {"id":{"name":"check_damage","path":"scripts/check_damage/check_damage.yy",},"order":10,},
     {"id":{"name":"check_collision","path":"scripts/check_collision/check_collision.yy",},"order":5,},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"order":7,},
     {"id":{"name":"s_dragonhead","path":"sprites/s_dragonhead/s_dragonhead.yy",},"order":0,},

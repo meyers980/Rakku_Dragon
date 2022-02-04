@@ -28,6 +28,15 @@ for(var l1C9460E0_2 = __dnd_lives; l1C9460E0_2 > 0; --l1C9460E0_2) {
 /// @DnDHash : 7CA87464
 /// @DnDArgument : "x" "128"
 /// @DnDArgument : "y" "10"
-/// @DnDArgument : "caption" "body_length"
-/// @DnDArgument : "var" "attack"
-draw_text(128, 10, string(body_length) + string(attack));
+/// @DnDArgument : "caption" ""Health ""
+/// @DnDArgument : "var" "body_length"
+draw_text(128, 10, string("Health ") + string(body_length));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 5874FD11
+/// @DnDArgument : "x" "128"
+/// @DnDArgument : "y" "20"
+/// @DnDArgument : "caption" ""SPD ""
+/// @DnDArgument : "var" "walk_spd / 0.5"
+draw_text(128, 20, string("SPD ") + string(walk_spd / 0.5));

@@ -18,8 +18,8 @@ function check_fireballdamage()
 		/// @DnDVersion : 1
 		/// @DnDHash : 1EDFFB0D
 		/// @DnDParent : 2B7B4301
-		/// @DnDArgument : "code" "destroybody = instance_find(o_dragonbody, bodyowner.body_length);"
-		destroybody = instance_find(o_dragonbody, bodyowner.body_length);
+		/// @DnDArgument : "code" "deadbody = instance_find(o_dragonbody, bodyowner.body_length);"
+		deadbody = instance_find(o_dragonbody, bodyowner.body_length);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
@@ -37,9 +37,9 @@ function check_fireballdamage()
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 6167A102
-		/// @DnDApplyTo : destroybody
+		/// @DnDApplyTo : deadbody
 		/// @DnDParent : 2B7B4301
-		with(destroybody) instance_destroy();
+		with(deadbody) instance_destroy();
 	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1

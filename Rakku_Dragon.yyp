@@ -9,7 +9,6 @@
     {"id":{"name":"o_fireball","path":"objects/o_fireball/o_fireball.yy",},"order":9,},
     {"id":{"name":"s_dragontail","path":"sprites/s_dragontail/s_dragontail.yy",},"order":2,},
     {"id":{"name":"check_state","path":"scripts/check_state/check_state.yy",},"order":3,},
-    {"id":{"name":"o_felix","path":"objects/o_felix/o_felix.yy",},"order":8,},
     {"id":{"name":"check_facing","path":"scripts/check_facing/check_facing.yy",},"order":1,},
     {"id":{"name":"create_body","path":"scripts/create_body/create_body.yy",},"order":8,},
     {"id":{"name":"o_admin_obj","path":"objects/o_admin_obj/o_admin_obj.yy",},"order":5,},

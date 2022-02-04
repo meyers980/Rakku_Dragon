@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 7D5D6688
-/// @DnDArgument : "var" "body_length"
-body_length = 0;
+/// @DnDHash : 6F8F78A7
+/// @DnDArgument : "var" "deadbody"
+deadbody = 0;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1

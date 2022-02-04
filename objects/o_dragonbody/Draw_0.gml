@@ -94,13 +94,3 @@ switch(l5B71024B_0)
 		draw_ellipse_colour(x + -2, y + -2, x + 2, y + 2, $FFFF2007 & $FFFFFF, $FFFF636D & $FFFFFF, 0);
 		break;
 }
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
-/// @DnDVersion : 1
-/// @DnDHash : 7AAE4567
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "15"
-/// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" ""
-/// @DnDArgument : "var" "deadbody"
-draw_text(x + 0, y + 15,  + string(deadbody));

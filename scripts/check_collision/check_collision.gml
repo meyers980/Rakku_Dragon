@@ -83,10 +83,10 @@ function check_collision()
 	/// @DnDVersion : 1
 	/// @DnDHash : 6586EA51
 	/// @DnDParent : 76CACCCC
-	/// @DnDArgument : "expr" "hsp"
+	/// @DnDArgument : "expr" "round(hsp)"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "x"
-	x += hsp;
+	x += round(hsp);
 
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 	/// @DnDVersion : 1.1
@@ -166,8 +166,8 @@ function check_collision()
 	/// @DnDVersion : 1
 	/// @DnDHash : 52472878
 	/// @DnDParent : 76CACCCC
-	/// @DnDArgument : "expr" "vsp"
+	/// @DnDArgument : "expr" "round(vsp)"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "y"
-	y += vsp;
+	y += round(vsp);
 }

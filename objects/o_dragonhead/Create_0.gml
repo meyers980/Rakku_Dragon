@@ -16,7 +16,7 @@ projectile_angles = ds_list_create();
 /// @DnDAction : YoYo Games.Data Structures.List_Add
 /// @DnDVersion : 1
 /// @DnDHash : 01369F11
-/// @DnDInput : 9
+/// @DnDInput : 13
 /// @DnDArgument : "var" "projectile_angles"
 /// @DnDArgument : "value_1" "-5"
 /// @DnDArgument : "value_2" "5"
@@ -26,7 +26,11 @@ projectile_angles = ds_list_create();
 /// @DnDArgument : "value_6" "15"
 /// @DnDArgument : "value_7" "-20"
 /// @DnDArgument : "value_8" "20"
-ds_list_add(projectile_angles, 0, -5, 5, -10, 10, -15, 15, -20, 20);
+/// @DnDArgument : "value_9" "-25"
+/// @DnDArgument : "value_10" "25"
+/// @DnDArgument : "value_11" "-30"
+/// @DnDArgument : "value_12" "30"
+ds_list_add(projectile_angles, 0, -5, 5, -10, 10, -15, 15, -20, 20, -25, 25, -30, 30);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

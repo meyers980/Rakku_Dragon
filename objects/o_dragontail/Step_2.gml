@@ -38,13 +38,13 @@ var tempfacing = ds_list_find_value(o_dragonhead.dragon_facing_list, (o_dragonhe
 /// @DnDVersion : 1
 /// @DnDHash : 3251A2E6
 /// @DnDInput : 3
-/// @DnDArgument : "value" "tempx"
-/// @DnDArgument : "value_1" "tempy"
+/// @DnDArgument : "value" "round(tempx)"
+/// @DnDArgument : "value_1" "round(tempy)"
 /// @DnDArgument : "value_2" "tempindex"
 /// @DnDArgument : "instvar_1" "1"
 /// @DnDArgument : "instvar_2" "11"
-x = tempx;
-y = tempy;
+x = round(tempx);
+y = round(tempy);
 image_index = tempindex;
 
 /// @DnDAction : YoYo Games.Common.Variable

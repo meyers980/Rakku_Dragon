@@ -26,17 +26,35 @@ for(var l1C9460E0_2 = __dnd_lives; l1C9460E0_2 > 0; --l1C9460E0_2) {
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 7CA87464
-/// @DnDArgument : "x" "128"
+/// @DnDArgument : "x" "15"
 /// @DnDArgument : "y" "10"
-/// @DnDArgument : "caption" ""Health ""
+/// @DnDArgument : "caption" ""HLTH ""
 /// @DnDArgument : "var" "body_length"
-draw_text(128, 10, string("Health ") + string(body_length));
+draw_text(15, 10, string("HLTH ") + string(body_length));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 5874FD11
-/// @DnDArgument : "x" "128"
-/// @DnDArgument : "y" "20"
+/// @DnDArgument : "x" "120"
+/// @DnDArgument : "y" "10"
 /// @DnDArgument : "caption" ""SPD ""
 /// @DnDArgument : "var" "walk_spd / 0.5"
-draw_text(128, 20, string("SPD ") + string(walk_spd / 0.5));
+draw_text(120, 10, string("SPD ") + string(walk_spd / 0.5));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 0A0A7636
+/// @DnDArgument : "x" "200"
+/// @DnDArgument : "y" "10"
+/// @DnDArgument : "caption" ""STR ""
+/// @DnDArgument : "var" "strength"
+draw_text(200, 10, string("STR ") + string(strength));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 7AD85DCB
+/// @DnDArgument : "x" "200"
+/// @DnDArgument : "y" "30"
+/// @DnDArgument : "caption" ""FRE""
+/// @DnDArgument : "var" "instance_number(o_fireball)"
+draw_text(200, 30, string("FRE") + string(instance_number(o_fireball)));

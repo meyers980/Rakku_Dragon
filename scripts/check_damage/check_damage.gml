@@ -9,10 +9,10 @@ function check_fireballdamage()
 	/// @DnDVersion : 1
 	/// @DnDHash : 2B7B4301
 	/// @DnDParent : 3AC17ACB
-	/// @DnDArgument : "var" "body_length"
-	/// @DnDArgument : "op" "2"
+	/// @DnDArgument : "var" "other.alarm[0]"
+	/// @DnDArgument : "op" "1"
 	/// @DnDArgument : "value" "1"
-	if(body_length > 1)
+	if(other.alarm[0] < 1)
 	{
 		/// @DnDAction : YoYo Games.Common.Execute_Code
 		/// @DnDVersion : 1
@@ -68,7 +68,18 @@ function check_fireballdamage()
 			/// @DnDParent : 3972CCC1
 			/// @DnDArgument : "const" "sp.GREEN"
 			case sp.GREEN:
-			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 7C3ACC04
+				/// @DnDApplyTo : bodyowner
+				/// @DnDParent : 4037F00C
+				/// @DnDArgument : "expr" "-1"
+				/// @DnDArgument : "expr_relative" "1"
+				/// @DnDArgument : "var" "strength"
+				with(bodyowner) {
+				strength += -1;
+				
+				}
 				break;
 		
 			/// @DnDAction : YoYo Games.Switch.Case

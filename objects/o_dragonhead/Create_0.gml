@@ -1,15 +1,32 @@
 /// @DnDAction : YoYo Games.Data Structures.Create_List
 /// @DnDVersion : 1
 /// @DnDHash : 0033ACD7
-/// @DnDInput : 4
+/// @DnDInput : 5
 /// @DnDArgument : "var" "dragon_x_list"
 /// @DnDArgument : "var_1" "dragon_y_list"
 /// @DnDArgument : "var_2" "dragon_index_list"
 /// @DnDArgument : "var_3" "dragon_facing_list"
+/// @DnDArgument : "var_4" "projectile_angles"
 dragon_x_list = ds_list_create();
 dragon_y_list = ds_list_create();
 dragon_index_list = ds_list_create();
 dragon_facing_list = ds_list_create();
+projectile_angles = ds_list_create();
+
+/// @DnDAction : YoYo Games.Data Structures.List_Add
+/// @DnDVersion : 1
+/// @DnDHash : 01369F11
+/// @DnDInput : 9
+/// @DnDArgument : "var" "projectile_angles"
+/// @DnDArgument : "value_1" "-5"
+/// @DnDArgument : "value_2" "5"
+/// @DnDArgument : "value_3" "-10"
+/// @DnDArgument : "value_4" "10"
+/// @DnDArgument : "value_5" "-15"
+/// @DnDArgument : "value_6" "15"
+/// @DnDArgument : "value_7" "-20"
+/// @DnDArgument : "value_8" "20"
+ds_list_add(projectile_angles, 0, -5, 5, -10, 10, -15, 15, -20, 20);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

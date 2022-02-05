@@ -69,6 +69,19 @@ switch(l1722F38C_0)
 		/// @DnDArgument : "expr" "sp.GREEN"
 		/// @DnDArgument : "var" "special"
 		special = sp.GREEN;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 5A161B8A
+		/// @DnDApplyTo : bodyowner
+		/// @DnDParent : 3F35A027
+		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "expr_relative" "1"
+		/// @DnDArgument : "var" "strength"
+		with(bodyowner) {
+		strength += 1;
+		
+		}
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case

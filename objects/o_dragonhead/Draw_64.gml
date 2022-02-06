@@ -39,12 +39,3 @@ draw_text(120, 10, string("SPD ") + string(walk_spd));
 /// @DnDArgument : "caption" ""STR ""
 /// @DnDArgument : "var" "strength"
 draw_text(200, 10, string("STR ") + string(strength));
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
-/// @DnDVersion : 1
-/// @DnDHash : 2971DFC7
-/// @DnDArgument : "x" "200"
-/// @DnDArgument : "y" "30"
-/// @DnDArgument : "caption" ""FRE""
-/// @DnDArgument : "var" "instance_number(o_fireball)"
-draw_text(200, 30, string("FRE") + string(instance_number(o_fireball)));

@@ -34,16 +34,16 @@ switch(l5B71024B_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 07E5E3F9
 		/// @DnDParent : 77BA08B6
-		/// @DnDArgument : "x1" "-2"
+		/// @DnDArgument : "x1" "-1"
 		/// @DnDArgument : "x1_relative" "1"
-		/// @DnDArgument : "y1" "-2"
+		/// @DnDArgument : "y1" "-1"
 		/// @DnDArgument : "y1_relative" "1"
-		/// @DnDArgument : "x2" "2"
+		/// @DnDArgument : "x2" "1"
 		/// @DnDArgument : "x2_relative" "1"
-		/// @DnDArgument : "y2" "2"
+		/// @DnDArgument : "y2" "1"
 		/// @DnDArgument : "y2_relative" "1"
 		/// @DnDArgument : "fill" "1"
-		draw_ellipse_colour(x + -2, y + -2, x + 2, y + 2, $FFFFFF & $FFFFFF, $FFFFFF & $FFFFFF, 0);
+		draw_ellipse_colour(x + -1, y + -1, x + 1, y + 1, $FFFFFF & $FFFFFF, $FFFFFF & $FFFFFF, 0);
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
@@ -56,18 +56,18 @@ switch(l5B71024B_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 0B7180F0
 		/// @DnDParent : 0C9506D0
-		/// @DnDArgument : "x1" "-2"
+		/// @DnDArgument : "x1" "-1"
 		/// @DnDArgument : "x1_relative" "1"
-		/// @DnDArgument : "y1" "-2"
+		/// @DnDArgument : "y1" "-1"
 		/// @DnDArgument : "y1_relative" "1"
-		/// @DnDArgument : "x2" "2"
+		/// @DnDArgument : "x2" "1"
 		/// @DnDArgument : "x2_relative" "1"
-		/// @DnDArgument : "y2" "2"
+		/// @DnDArgument : "y2" "1"
 		/// @DnDArgument : "y2_relative" "1"
 		/// @DnDArgument : "col1" "$FF0AFF0E"
 		/// @DnDArgument : "col2" "$FF7AFF81"
 		/// @DnDArgument : "fill" "1"
-		draw_ellipse_colour(x + -2, y + -2, x + 2, y + 2, $FF0AFF0E & $FFFFFF, $FF7AFF81 & $FFFFFF, 0);
+		draw_ellipse_colour(x + -1, y + -1, x + 1, y + 1, $FF0AFF0E & $FFFFFF, $FF7AFF81 & $FFFFFF, 0);
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
@@ -80,17 +80,17 @@ switch(l5B71024B_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 2D3522F1
 		/// @DnDParent : 39505B27
-		/// @DnDArgument : "x1" "-2"
+		/// @DnDArgument : "x1" "-1"
 		/// @DnDArgument : "x1_relative" "1"
-		/// @DnDArgument : "y1" "-2"
+		/// @DnDArgument : "y1" "-1"
 		/// @DnDArgument : "y1_relative" "1"
-		/// @DnDArgument : "x2" "2"
+		/// @DnDArgument : "x2" "1"
 		/// @DnDArgument : "x2_relative" "1"
-		/// @DnDArgument : "y2" "2"
+		/// @DnDArgument : "y2" "1"
 		/// @DnDArgument : "y2_relative" "1"
 		/// @DnDArgument : "col1" "$FFFF2007"
 		/// @DnDArgument : "col2" "$FFFF636D"
 		/// @DnDArgument : "fill" "1"
-		draw_ellipse_colour(x + -2, y + -2, x + 2, y + 2, $FFFF2007 & $FFFFFF, $FFFF636D & $FFFFFF, 0);
+		draw_ellipse_colour(x + -1, y + -1, x + 1, y + 1, $FFFF2007 & $FFFFFF, $FFFF636D & $FFFFFF, 0);
 		break;
 }

@@ -25,17 +25,26 @@ draw_text(15, 10, string("HLTH ") + string(body_length));
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 7716B2AE
-/// @DnDArgument : "x" "120"
+/// @DnDArgument : "x" "75"
 /// @DnDArgument : "y" "10"
 /// @DnDArgument : "caption" ""SPD ""
 /// @DnDArgument : "var" "walk_spd"
-draw_text(120, 10, string("SPD ") + string(walk_spd));
+draw_text(75, 10, string("SPD ") + string(walk_spd));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 4ACD0815
-/// @DnDArgument : "x" "200"
+/// @DnDArgument : "x" "140"
 /// @DnDArgument : "y" "10"
 /// @DnDArgument : "caption" ""STR ""
 /// @DnDArgument : "var" "strength"
-draw_text(200, 10, string("STR ") + string(strength));
+draw_text(140, 10, string("STR ") + string(strength));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 15B5A0F7
+/// @DnDArgument : "x" "200"
+/// @DnDArgument : "y" "10"
+/// @DnDArgument : "caption" ""ATK ""
+/// @DnDArgument : "var" "atk_spd"
+draw_text(200, 10, string("ATK ") + string(atk_spd));

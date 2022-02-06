@@ -113,9 +113,9 @@ function get_input()
 			/// @DnDVersion : 1
 			/// @DnDHash : 3515925E
 			/// @DnDParent : 0971C71E
-			/// @DnDArgument : "steps" "15"
+			/// @DnDArgument : "steps" "30  - (atk_spd * 2)"
 			/// @DnDArgument : "alarm" "10"
-			alarm_set(10, 15);
+			alarm_set(10, 30  - (atk_spd * 2));
 		}
 	}
 }

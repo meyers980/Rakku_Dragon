@@ -97,5 +97,18 @@ switch(l1722F38C_0)
 		/// @DnDArgument : "expr" "sp.BLUE"
 		/// @DnDArgument : "var" "special"
 		special = sp.BLUE;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 1DF50902
+		/// @DnDApplyTo : bodyowner
+		/// @DnDParent : 7CE4BE8E
+		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "expr_relative" "1"
+		/// @DnDArgument : "var" "atk_spd"
+		with(bodyowner) {
+		atk_spd += 1;
+		
+		}
 		break;
 }

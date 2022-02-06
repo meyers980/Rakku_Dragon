@@ -88,7 +88,18 @@ function check_fireballdamage()
 			/// @DnDParent : 3972CCC1
 			/// @DnDArgument : "const" "sp.BLUE"
 			case sp.BLUE:
-			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 038B0AAE
+				/// @DnDApplyTo : bodyowner
+				/// @DnDParent : 50CDAD56
+				/// @DnDArgument : "expr" "-1"
+				/// @DnDArgument : "expr_relative" "1"
+				/// @DnDArgument : "var" "atk_spd"
+				with(bodyowner) {
+				atk_spd += -1;
+				
+				}
 				break;
 		}
 	

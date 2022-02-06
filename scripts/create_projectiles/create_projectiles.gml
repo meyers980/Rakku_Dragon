@@ -224,10 +224,10 @@ function create_fireball()
 		/// @DnDHash : 45E6F77E
 		/// @DnDApplyTo : new_fireball
 		/// @DnDParent : 2E325DEB
-		/// @DnDArgument : "value" "other.walk_spd * 1.5"
+		/// @DnDArgument : "value" "other.walk_spd + 2"
 		/// @DnDArgument : "instvar" "3"
 		with(new_fireball) {
-		speed = other.walk_spd * 1.5;
+		speed = other.walk_spd + 2;
 		}
 	
 		/// @DnDAction : YoYo Games.Common.Variable

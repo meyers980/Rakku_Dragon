@@ -53,11 +53,11 @@ function check_fireballdamage()
 				/// @DnDHash : 577DF1AA
 				/// @DnDApplyTo : bodyowner
 				/// @DnDParent : 31998D9C
-				/// @DnDArgument : "expr" "-0.5"
+				/// @DnDArgument : "expr" "-1"
 				/// @DnDArgument : "expr_relative" "1"
 				/// @DnDArgument : "var" "walk_spd"
 				with(bodyowner) {
-				walk_spd += -0.5;
+				walk_spd += -1;
 				
 				}
 				break;

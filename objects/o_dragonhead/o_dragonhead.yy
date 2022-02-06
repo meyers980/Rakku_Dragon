@@ -34,7 +34,7 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"walk_spd","path":"objects/o_entity/o_entity.yy",},"objectId":{"name":"o_entity","path":"objects/o_entity/o_entity.yy",},"value":"2.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"walk_spd","path":"objects/o_entity/o_entity.yy",},"objectId":{"name":"o_entity","path":"objects/o_entity/o_entity.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"drag","path":"objects/o_entity/o_entity.yy",},"objectId":{"name":"o_entity","path":"objects/o_entity/o_entity.yy",},"value":"0.75","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {

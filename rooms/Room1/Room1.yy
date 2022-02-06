@@ -3,8 +3,8 @@
   "volume": 1.0,
   "parentRoom": null,
   "views": [
-    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":256,"hview":224,"xport":0,"yport":0,"wport":256,"hport":224,"hborder":100,"vborder":75,"hspeed":-1,"vspeed":-1,"objectId":{"name":"o_dragonhead","path":"objects/o_dragonhead/o_dragonhead.yy",},},
-    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":1024,"hview":224,"xport":0,"yport":208,"wport":73,"hport":16,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":256,"hview":224,"xport":0,"yport":0,"wport":256,"hport":224,"hborder":128,"vborder":112,"hspeed":-1,"vspeed":-1,"objectId":{"name":"o_dragonhead","path":"objects/o_dragonhead/o_dragonhead.yy",},},
+    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":1024,"hview":336,"xport":0,"yport":208,"wport":49,"hport":16,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},

@@ -47,11 +47,11 @@ switch(l1722F38C_0)
 		/// @DnDHash : 33D9A54E
 		/// @DnDApplyTo : bodyowner
 		/// @DnDParent : 694CF283
-		/// @DnDArgument : "expr" "0.5"
+		/// @DnDArgument : "expr" "1"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "walk_spd"
 		with(bodyowner) {
-		walk_spd += 0.5;
+		walk_spd += 1;
 		
 		}
 		break;

@@ -45,6 +45,6 @@ draw_text(140, 10, string("STR ") + string(strength));
 /// @DnDHash : 15B5A0F7
 /// @DnDArgument : "x" "200"
 /// @DnDArgument : "y" "10"
-/// @DnDArgument : "caption" ""ATK ""
+/// @DnDArgument : "caption" ""A.SPD ""
 /// @DnDArgument : "var" "atk_spd"
-draw_text(200, 10, string("ATK ") + string(atk_spd));
+draw_text(200, 10, string("A.SPD ") + string(atk_spd));

@@ -76,7 +76,6 @@ if(global.coins > 1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 5E46B364
 	/// @DnDParent : 00008C66
-	/// @DnDArgument : "room" "r_room01"
-	/// @DnDSaveInfo : "room" "r_room01"
-	room_goto(r_room01);
+	/// @DnDArgument : "room" "r_playerselect"
+	room_goto(r_playerselect);
 }

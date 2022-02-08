@@ -186,6 +186,34 @@ switch(l33404035_0)
 	/// @DnDParent : 33404035
 	/// @DnDArgument : "const" ""yellow""
 	case "yellow":
-	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 5D657440
+		/// @DnDInput : 8
+		/// @DnDParent : 1AF1FE9B
+		/// @DnDArgument : "expr" "s_dragonhead_yellow"
+		/// @DnDArgument : "expr_1" "s_dragonhead_yellow"
+		/// @DnDArgument : "expr_2" "s_dragonhead_yellow"
+		/// @DnDArgument : "expr_3" "s_dragonhead_yellow"
+		/// @DnDArgument : "expr_4" "s_dragonheadattack_yellow"
+		/// @DnDArgument : "expr_5" "s_dragonheadattack_yellow"
+		/// @DnDArgument : "expr_6" "s_dragonheadattack_yellow"
+		/// @DnDArgument : "expr_7" "s_dragonhead_yellow"
+		/// @DnDArgument : "var" "spr_idle"
+		/// @DnDArgument : "var_1" "spr_walk"
+		/// @DnDArgument : "var_2" "spr_air"
+		/// @DnDArgument : "var_3" "spr_dead"
+		/// @DnDArgument : "var_4" "spr_attack_idle"
+		/// @DnDArgument : "var_5" "spr_attack_walk"
+		/// @DnDArgument : "var_6" "spr_attack_air"
+		/// @DnDArgument : "var_7" "spr_gameover"
+		spr_idle = s_dragonhead_yellow;
+		spr_walk = s_dragonhead_yellow;
+		spr_air = s_dragonhead_yellow;
+		spr_dead = s_dragonhead_yellow;
+		spr_attack_idle = s_dragonheadattack_yellow;
+		spr_attack_walk = s_dragonheadattack_yellow;
+		spr_attack_air = s_dragonheadattack_yellow;
+		spr_gameover = s_dragonhead_yellow;
 		break;
 }

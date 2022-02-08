@@ -43,6 +43,12 @@ switch(l55EC9557_0)
 	/// @DnDParent : 55EC9557
 	/// @DnDArgument : "const" ""yellow""
 	case "yellow":
-	
+		/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+		/// @DnDVersion : 1
+		/// @DnDHash : 555FABE8
+		/// @DnDParent : 524443D5
+		/// @DnDArgument : "value" "s_dragonbody_yellow"
+		/// @DnDArgument : "instvar" "10"
+		sprite_index = s_dragonbody_yellow;
 		break;
 }

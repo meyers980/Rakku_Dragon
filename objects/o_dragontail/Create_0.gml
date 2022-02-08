@@ -26,6 +26,12 @@ switch(l449542F9_0)
 	/// @DnDParent : 449542F9
 	/// @DnDArgument : "const" ""yellow""
 	case "yellow":
-	
+		/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+		/// @DnDVersion : 1
+		/// @DnDHash : 362D05E6
+		/// @DnDParent : 7B7B06C1
+		/// @DnDArgument : "value" "s_dragontail_yellow"
+		/// @DnDArgument : "instvar" "10"
+		sprite_index = s_dragontail_yellow;
 		break;
 }

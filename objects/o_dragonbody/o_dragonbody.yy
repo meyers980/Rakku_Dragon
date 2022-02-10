@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "s_dragonbody",
+    "path": "sprites/s_dragonbody/s_dragonbody.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

@@ -3,6 +3,7 @@
     {"id":{"name":"create_projectiles","path":"scripts/create_projectiles/create_projectiles.yy",},"order":9,},
     {"id":{"name":"create_positions","path":"scripts/create_positions/create_positions.yy",},"order":4,},
     {"id":{"name":"calc_movement","path":"scripts/calc_movement/calc_movement.yy",},"order":6,},
+    {"id":{"name":"o_enemydragon","path":"objects/o_enemydragon/o_enemydragon.yy",},"order":15,},
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":6,},
     {"id":{"name":"s_dragonbody","path":"sprites/s_dragonbody/s_dragonbody.yy",},"order":1,},
     {"id":{"name":"o_dragonhead","path":"objects/o_dragonhead/o_dragonhead.yy",},"order":0,},

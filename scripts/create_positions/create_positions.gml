@@ -15,11 +15,12 @@ function create_positions()
 	/// @DnDArgument : "target_1" "temp_y"
 	/// @DnDArgument : "target_temp_1" "1"
 	/// @DnDArgument : "target_2" "tempindex"
+	/// @DnDArgument : "target_temp_2" "1"
 	/// @DnDArgument : "instvar_1" "1"
 	/// @DnDArgument : "instvar_2" "15"
 	var temp_x = x;
 	var temp_y = y;
-	tempindex = image_index;
+	var tempindex = image_index;
 
 	/// @DnDAction : YoYo Games.Data Structures.List_Insert
 	/// @DnDVersion : 1

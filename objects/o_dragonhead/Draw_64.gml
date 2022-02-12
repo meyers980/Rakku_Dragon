@@ -1,9 +1,24 @@
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
 /// @DnDHash : 29DA6785
-/// @DnDArgument : "font" "score_font"
-/// @DnDSaveInfo : "font" "score_font"
-draw_set_font(score_font);
+/// @DnDArgument : "font" "arcade_font"
+/// @DnDSaveInfo : "font" "arcade_font"
+draw_set_font(arcade_font);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Color
+/// @DnDVersion : 1
+/// @DnDHash : 0CA6298E
+draw_set_colour($FFFFFFFF & $ffffff);
+var l0CA6298E_0=($FFFFFFFF >> 24);
+draw_set_alpha(l0CA6298E_0 / $ff);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Rectangle
+/// @DnDVersion : 1
+/// @DnDHash : 425ECECC
+/// @DnDArgument : "x1" "123"
+/// @DnDArgument : "x2" "196"
+/// @DnDArgument : "y2" "23"
+draw_rectangle(123, 0, 196, 23, 1);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Instance_Lives
 /// @DnDVersion : 1
@@ -26,33 +41,33 @@ for(var l1D20809D_2 = __dnd_lives; l1D20809D_2 > 0; --l1D20809D_2) {
 /// @DnDHash : 49EF1CFC
 /// @DnDArgument : "x" "15"
 /// @DnDArgument : "y" "5"
-/// @DnDArgument : "caption" ""HLTH ""
+/// @DnDArgument : "caption" ""HEALTH ""
 /// @DnDArgument : "var" "body_length"
-draw_text(15, 5, string("HLTH ") + string(body_length));
+draw_text(15, 5, string("HEALTH ") + string(body_length));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 7716B2AE
-/// @DnDArgument : "x" "60"
-/// @DnDArgument : "y" "5"
-/// @DnDArgument : "caption" ""SPD ""
-/// @DnDArgument : "var" "walk_spd"
-draw_text(60, 5, string("SPD ") + string(walk_spd));
+/// @DnDArgument : "x" "15"
+/// @DnDArgument : "y" "15"
+/// @DnDArgument : "caption" ""STRENGTH ""
+/// @DnDArgument : "var" "strength"
+draw_text(15, 15, string("STRENGTH ") + string(strength));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 4ACD0815
-/// @DnDArgument : "x" "155"
+/// @DnDArgument : "x" "200"
 /// @DnDArgument : "y" "5"
-/// @DnDArgument : "caption" ""STR ""
-/// @DnDArgument : "var" "strength"
-draw_text(155, 5, string("STR ") + string(strength));
+/// @DnDArgument : "caption" ""M.SPEED ""
+/// @DnDArgument : "var" "walk_spd"
+draw_text(200, 5, string("M.SPEED ") + string(walk_spd));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 15B5A0F7
 /// @DnDArgument : "x" "200"
-/// @DnDArgument : "y" "5"
-/// @DnDArgument : "caption" ""A.SPD ""
+/// @DnDArgument : "y" "15"
+/// @DnDArgument : "caption" ""A.SPEED ""
 /// @DnDArgument : "var" "atk_spd"
-draw_text(200, 5, string("A.SPD ") + string(atk_spd));
+draw_text(200, 15, string("A.SPEED ") + string(atk_spd));

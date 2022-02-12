@@ -101,14 +101,11 @@ repeat(3)
 	create_body();
 }
 
-/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDAction : YoYo Games.Common.Function_Call
 /// @DnDVersion : 1
-/// @DnDHash : 4D8B8CAA
-/// @DnDArgument : "xpos_relative" "1"
-/// @DnDArgument : "ypos_relative" "1"
-/// @DnDArgument : "objectid" "o_dragontail"
-/// @DnDSaveInfo : "objectid" "o_dragontail"
-instance_create_layer(x + 0, y + 0, "Instances", o_dragontail);
+/// @DnDHash : 53F91D14
+/// @DnDArgument : "function" "create_tail"
+create_tail();
 
 /// @DnDAction : YoYo Games.Instance Variables.Set_Lives
 /// @DnDVersion : 1

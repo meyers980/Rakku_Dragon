@@ -9,10 +9,10 @@ function check_fireballdamage()
 	/// @DnDVersion : 1
 	/// @DnDHash : 2B7B4301
 	/// @DnDParent : 3AC17ACB
-	/// @DnDArgument : "var" "other.alarm[0]"
-	/// @DnDArgument : "op" "1"
-	/// @DnDArgument : "value" "1"
-	if(other.alarm[0] < 1)
+	/// @DnDArgument : "var" "other.owner"
+	/// @DnDArgument : "not" "1"
+	/// @DnDArgument : "value" "bodyowner"
+	if(!(other.owner == bodyowner))
 	{
 		/// @DnDAction : YoYo Games.Common.Execute_Code
 		/// @DnDVersion : 1

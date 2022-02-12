@@ -39,6 +39,18 @@ function create_fireball()
 		/// @DnDSaveInfo : "objectid" "o_fireball"
 		new_fireball = instance_create_layer(x + 0, y + 0, "Instances", o_fireball);
 	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 650D920B
+		/// @DnDApplyTo : new_fireball
+		/// @DnDParent : 2E325DEB
+		/// @DnDArgument : "expr" "other.id"
+		/// @DnDArgument : "var" "owner"
+		with(new_fireball) {
+		owner = other.id;
+		
+		}
+	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 2A578DED

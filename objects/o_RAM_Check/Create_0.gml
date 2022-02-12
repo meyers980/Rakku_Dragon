@@ -59,8 +59,8 @@ fullscreen = ini_read_string("Settings", "Fullscreen", "false");
 /// @DnDArgument : "var" "hresolution"
 /// @DnDArgument : "section" ""Settings""
 /// @DnDArgument : "key" ""Hresolution""
-/// @DnDArgument : "default" "256"
-hresolution = ini_read_string("Settings", "Hresolution", 256);
+/// @DnDArgument : "default" "320"
+hresolution = ini_read_string("Settings", "Hresolution", 320);
 
 /// @DnDAction : YoYo Games.Files.Ini_Read
 /// @DnDVersion : 1
@@ -68,8 +68,8 @@ hresolution = ini_read_string("Settings", "Hresolution", 256);
 /// @DnDArgument : "var" "vresolution"
 /// @DnDArgument : "section" ""Settings""
 /// @DnDArgument : "key" ""Vresolution""
-/// @DnDArgument : "default" "224"
-vresolution = ini_read_string("Settings", "Vresolution", 224);
+/// @DnDArgument : "default" "240"
+vresolution = ini_read_string("Settings", "Vresolution", 240);
 
 /// @DnDAction : YoYo Games.Files.Close_Ini
 /// @DnDVersion : 1

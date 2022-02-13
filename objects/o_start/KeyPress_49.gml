@@ -65,5 +65,6 @@ if(global.coins > 0)
 	/// @DnDHash : 11EE6EDE
 	/// @DnDParent : 43CF9E27
 	/// @DnDArgument : "room" "r_playerselect"
+	/// @DnDSaveInfo : "room" "r_playerselect"
 	room_goto(r_playerselect);
 }

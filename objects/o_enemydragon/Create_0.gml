@@ -35,9 +35,14 @@ ds_list_add(projectile_angles, 0, -5, 5, -10, 10, -15, 15, -20, 20, -25, 25, -30
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 11C4A8E9
+/// @DnDInput : 3
 /// @DnDArgument : "expr" "2"
 /// @DnDArgument : "var" "starters"
+/// @DnDArgument : "var_1" "targetx"
+/// @DnDArgument : "var_2" "targety"
 starters = 2;
+targetx = 0;
+targety = 0;
 
 /// @DnDAction : YoYo Games.Loops.Repeat
 /// @DnDVersion : 1
@@ -110,5 +115,9 @@ create_tail();
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 26411A19
+/// @DnDInput : 2
 /// @DnDArgument : "steps" "160"
+/// @DnDArgument : "steps_1" "1"
+/// @DnDArgument : "alarm_1" "1"
 alarm_set(0, 160);
+alarm_set(1, 1);

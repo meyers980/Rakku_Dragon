@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"create_projectiles","path":"scripts/create_projectiles/create_projectiles.yy",},"order":9,},
+    {"id":{"name":"get_input_enemy","path":"scripts/get_input_enemy/get_input_enemy.yy",},"order":11,},
     {"id":{"name":"create_positions","path":"scripts/create_positions/create_positions.yy",},"order":4,},
     {"id":{"name":"calc_movement","path":"scripts/calc_movement/calc_movement.yy",},"order":6,},
     {"id":{"name":"o_enemydragon","path":"objects/o_enemydragon/o_enemydragon.yy",},"order":15,},

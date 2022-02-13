@@ -18,8 +18,14 @@ function check_fireballdamage()
 		/// @DnDVersion : 1
 		/// @DnDHash : 1EDFFB0D
 		/// @DnDParent : 2B7B4301
-		/// @DnDArgument : "code" "deadbody = instance_find(o_dragonbody, bodyowner.body_length - 1);"
-		deadbody = instance_find(o_dragonbody, bodyowner.body_length - 1);
+		/// @DnDArgument : "code" "var deadbody;$(13_10)deadbody = noone;$(13_10)with (o_dragonbody)$(13_10)	{$(13_10)	if bodyowner == other.bodyowner &&	body_length == bodyowner.body_length deadbody = id;$(13_10)	}$(13_10)if deadbody != noone target = deadbody;"
+		var deadbody;
+		deadbody = noone;
+		with (o_dragonbody)
+			{
+			if bodyowner == other.bodyowner &&	body_length == bodyowner.body_length deadbody = id;
+			}
+		if deadbody != noone target = deadbody;
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1

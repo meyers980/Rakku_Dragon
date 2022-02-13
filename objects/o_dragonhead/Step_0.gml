@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 6178F1E6
-/// @DnDArgument : "expr" "abs(hsp) > walk_spd * 0.1 || abs(vsp) > walk_spd * 0.1"
-if(abs(hsp) > walk_spd * 0.1 || abs(vsp) > walk_spd * 0.1)
+/// @DnDArgument : "expr" "abs(hsp) > walk_spd * 0.25 || abs(vsp) > walk_spd * 0.25"
+if(abs(hsp) > walk_spd * 0.25 || abs(vsp) > walk_spd * 0.25)
 {
 	/// @DnDAction : YoYo Games.Common.Function_Call
 	/// @DnDVersion : 1

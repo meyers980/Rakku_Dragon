@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "s_dragongroup",
+    "path": "folders/Sprites/s_dragongroup.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_dragonselect",

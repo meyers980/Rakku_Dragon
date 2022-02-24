@@ -31,7 +31,11 @@
     {"isDnD":true,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"spr_idle","path":"objects/o_entity/o_entity.yy",},"objectId":{"name":"o_entity","path":"objects/o_entity/o_entity.yy",},"value":"s_shenronhead","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"spr_walk","path":"objects/o_entity/o_entity.yy",},"objectId":{"name":"o_entity","path":"objects/o_entity/o_entity.yy",},"value":"s_shenronhead","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"spr_air","path":"objects/o_entity/o_entity.yy",},"objectId":{"name":"o_entity","path":"objects/o_entity/o_entity.yy",},"value":"s_shenronhead","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",

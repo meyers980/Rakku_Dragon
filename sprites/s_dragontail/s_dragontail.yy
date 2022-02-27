@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_dragontail","path":"sprites/s_dragontail/s_dragontail.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_dragontail",
     "tags": [],
     "resourceType": "GMSequence",

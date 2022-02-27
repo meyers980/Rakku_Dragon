@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_dragonbody_yellow","path":"sprites/s_dragonbody_yellow/s_dragonbody_yellow.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_dragonbody_yellow",
     "tags": [],
     "resourceType": "GMSequence",

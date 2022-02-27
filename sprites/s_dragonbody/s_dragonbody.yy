@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_dragonbody","path":"sprites/s_dragonbody/s_dragonbody.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_dragonbody",
     "tags": [],
     "resourceType": "GMSequence",

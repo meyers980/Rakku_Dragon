@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_background","path":"sprites/s_background/s_background.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_background",
     "tags": [],
     "resourceType": "GMSequence",

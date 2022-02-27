@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_dragonheadattack","path":"sprites/s_dragonheadattack/s_dragonheadattack.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_dragonheadattack",
     "tags": [],
     "resourceType": "GMSequence",

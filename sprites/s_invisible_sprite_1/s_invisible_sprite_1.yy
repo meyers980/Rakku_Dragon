@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_invisible_sprite_1","path":"sprites/s_invisible_sprite_1/s_invisible_sprite_1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_invisible_sprite_1",
     "tags": [],
     "resourceType": "GMSequence",

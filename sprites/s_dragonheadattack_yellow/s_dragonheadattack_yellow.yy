@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_dragonheadattack_yellow","path":"sprites/s_dragonheadattack_yellow/s_dragonheadattack_yellow.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "s_dragonheadattack_yellow",
     "tags": [],
     "resourceType": "GMSequence",
